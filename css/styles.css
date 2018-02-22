@@ -2,15 +2,35 @@
   box-sizing: border-box;
 }
 .container {
-  display: grid;
+  display: flex;
+  width: 85%;
+  max-width: 1000px;
   margin: 20px auto;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 1em;
-  grid-auto-flow: dense;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: green;
 }
 
-ul
-{
+img {
+  margin: 1em;
+}
+
+a {
+  flex-basis: auto;
+}
+
+section {
+  height: 100px;
+  background-color: purple;
   text-align: center;
+}
+input {
+margin-top: 50px;
+width: 30%;
+padding: 10px;
+font-size: 16px;
+}
+li{
   list-style: none;
 }
