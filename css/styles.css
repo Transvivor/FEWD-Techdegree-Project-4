@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+}
+
+ul
+{
+  text-align: center;
+  list-style: none;
+}
