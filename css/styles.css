@@ -9,7 +9,7 @@
   flex-direction:  row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: green;
+
 }
 
 img {
@@ -22,14 +22,13 @@ a {
 
 section {
   height: 100px;
-  background-color: purple;
   text-align: center;
 }
 input {
-margin-top: 50px;
 width: 30%;
 padding: 10px;
 font-size: 16px;
+margin: 50px auto 10px;
 }
 li{
   list-style: none;
