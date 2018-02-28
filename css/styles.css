@@ -11,7 +11,9 @@
   justify-content: space-around;
 
 }
-
+#search {
+  min-width: 100px;
+}
 img {
   margin: 1em;
 }
@@ -20,9 +22,10 @@ a {
   flex-basis: auto;
 }
 
-box {
+.box {
   height: 100px;
   text-align: center;
+  margin: 10px auto;
 }
 input {
 width: 30%;
