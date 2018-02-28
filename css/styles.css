@@ -20,7 +20,7 @@ a {
   flex-basis: auto;
 }
 
-section {
+box {
   height: 100px;
   text-align: center;
 }
